@@ -1,0 +1,122 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/HiepHunbie/Documents/WorkApp/VIBBIDI/Unity/Demo/Avoid
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50998
+Successfully changed project path to: /Users/HiepHunbie/Documents/WorkApp/VIBBIDI/Unity/Demo/Avoid
+/Users/HiepHunbie/Documents/WorkApp/VIBBIDI/Unity/Demo/Avoid
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 53.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/HiepHunbie/Documents/WorkApp/VIBBIDI/Unity/Demo/Avoid/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-26 14:57:15.970 Unity[28369:1022445] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-01-26 14:57:15.970 Unity[28369:1022445] Metal devices available: 1
+2022-01-26 14:57:15.971 Unity[28369:1022445] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-01-26 14:57:15.972 Unity[28369:1022445] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56369
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002390 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.590 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.260 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.0f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.4 MB.
+System memory in use after: 144.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 3.016469 ms (FindLiveObjects: 0.321738 ms CreateObjectMapping: 0.116497 ms MarkObjects: 2.337949 ms  DeleteObjects: 0.238662 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Dino.cs
+  artifactKey: Guid(0defffe6404d94dc99c89a46dce0dc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dino.cs using Guid(0defffe6404d94dc99c89a46dce0dc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987b8394ad88779ebfdf246d7faaff83') in 0.300231 seconds
+  Import took 0.305594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 370.726186 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e67c794dd7a88e15a5fff7244f186d') in 0.332494 seconds
+  Import took 0.354679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.315355 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(409e179b0d18046b2a48020f31e55524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(409e179b0d18046b2a48020f31e55524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30097eb43f40d70527516308362bd6a') in 0.014845 seconds
+  Import took 0.044128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(409e179b0d18046b2a48020f31e55524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(409e179b0d18046b2a48020f31e55524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30097eb43f40d70527516308362bd6a') in 0.001575 seconds
+  Import took 0.006308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.348243 seconds.
+  path: Assets/Scripts/GamePadsController.cs
+  artifactKey: Guid(824fef3d5dfe24a86a26e365f32e846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GamePadsController.cs using Guid(824fef3d5dfe24a86a26e365f32e846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1513fc89700c88115852d67704cd6478') in 0.002852 seconds
+  Import took 0.008672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001061 seconds.
+  path: Assets/Scripts/GamePadsController.cs
+  artifactKey: Guid(824fef3d5dfe24a86a26e365f32e846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GamePadsController.cs using Guid(824fef3d5dfe24a86a26e365f32e846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1513fc89700c88115852d67704cd6478') in 0.002989 seconds
+  Import took 0.007761 seconds .
+
